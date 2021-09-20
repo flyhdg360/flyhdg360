@@ -1,0 +1,52 @@
+body {
+  font-size: 2.1vh;
+  font-family: 'Niramit', sans-serif;
+}
+
+.contact-bar a {
+  margin: 1vh;
+}
+
+.contact-navi a {
+  margin: 1vh;
+}
+
+
+/* Footer */
+
+
+/* Rating Sections */
+
+.rating-page-section {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.aircraft {
+  margin-bottom: 10vh;
+}
+
+td {
+  padding: 1vh;
+  border: 0.3vh solid black;
+  padding-right: 2vh;
+}
+
+
+th {
+  padding: 1vh;
+}
+
+.sectional-section .card {
+  margin: 0;
+  border: none;
+}
+
+.sectional-section .card-header {
+  border: none;
+}
+
+.reading-and-understanding img {
+  margin: 3vh;
+  border: 0.3vh solid black;
+}

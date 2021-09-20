@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- CSS Links -->
+    <link href="./resources/directory/style.css" rel=stylesheet type="text/css" />
+    <link href="./resources/global.css" rel=stylesheet type="text/css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Weather</title>
+  </head>
+  <body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="ratings.html">
+        <img src="resources/images/logo.png" width="70px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav" role="navigation">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="ratings.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="directory.html">Directory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Landing Page Title + Jumbotron -->
+
+    <div class="land-title container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div class="">
+          <div class="landing-texts text-center">
+            <h1>Aviation Weather Reports</h1>
+          </div>
+        </div>
+    </div>
+
+    <!-- Private Certificate -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="ratings.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="directory.html">Directory</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Aviation Weather</li>
+      </ol>
+    </nav>
+    <div class="rating-page-section sectional-section container">
+
+      <h2 class="text-center">Knowledgebase Article</h2>
+      <h4 class="text-center">Reading Aviation Reports</h4>
+      <br>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What types of weather reports do pilots use?
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              There are a few main types of aviation weather reports. This article will discuss the following:
+              <ul>
+                <li>METAR</li>
+                <li>TAF</li>
+                <li>Prognostic Outlook</li>
+                <li>AIRMETs/SIGMETs</li>
+              </ul>
+            </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What types of pilots use them?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              All pilots! Attaining up-to-date weather reports is an important
+              part of any preflight procedure.
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="reading-and-understanding">
+        <h3>Decoding Weather Reports</h3>
+        <br>
+        <a href="https://www.weather.gov/media/wrh/mesowest/metar_decode_key.pdf" target="_blank"><button class="btn btn-large btn-outline-primary">FAA METAR Weather Abbreviations</button></a>
+        <a href="https://aviationweather.gov/taf/decoder" target="_blank"><button class="btn btn-large btn-outline-primary">FAA TAF Guide</button></a>
+
+        <br><br>
+
+        <br><br>
+        <h4>METAR</h4>
+        <!--<img src="./resources/images/decode1.png" class="img img-fluid" /> -->
+        <h6>METAR reports are current weather forecasts. They are typically issued at 50 minutes past the hour, plus or minus 10 minutes. Special METARs may be issued for signifigant or changing weather at any time.</h6>
+
+        <br>
+        <h5>Sample METAR - KMCO 170053Z 07006KT 10SM FEW070 BKN300 26/20 A3004 RMK AO2 SLP170 T02610200</h6>
+          <ul>
+            <li>KMCO: Station ICAO</li>
+            <li>170053Z: 17 - Day of the Month | 0053Z - Time in Zulu</li>
+            <li>07006KT: 070° - Wind Direction | 06KT - Wind Velocity</li>
+            <li>10SM: 10 Statute Mile Visibility</li>
+            <li>FEW070: Few Clouds at 7000 feet</li>
+            <li>BKN300: Broken Clouds at 30000 feet</li>
+            <li>26/20: Temperature - 26°C | Dewpoint - 20°C</li>
+            <li>A3004: Altimeter Setting - 30.04 inHg</li>
+            <li>RMK: Signals Start of "Remarks" Section</li>
+            <li>AO2: Indicates that the station is automated and has a precipitation sensor</li>
+            <li>SLP170: Sea Level Pressure - 1017.0 milibars</li>
+            <li>T02610200: Gives precise temperatures | Temperature - 026.1°C | Dewpoint - 020.0°C</li>
+
+          </ul>
+        <br>
+        <br>
+        <br>
+        <h4>TAF</h4>
+        <h6>A TAF report is a Terminal Aerodrome Forecast. It has a wider valid period, typically of about 24 hours. A TAF is one of the primary tools a pilot uses when planning a flight to determine conditions along the route of flight. TAF reports are issued every six hours.</h6>
+        <h5>Sample TAF<br>KDAB 162336Z 1700/1724 03005KT P6SM FEW030 FEW080 BKN250
+          <br>FM170800 35005KT P6SM SCT035
+          </br>FM171400 02011KT P6SM SCT030
+          </br>FM171800 04014G20KT P6SM BKN035</h6>
+          <ul>
+            <li>KDAB: Station ICAO</li>
+            <li>162336Z: 16 - Day of the Month | 2336Z - Time in Zulu</li>
+            <li>1700/1724: TAF Valid Period - From the 17th at 0000Z to the 17th at 2400Z</li>
+            <li>03005KT: 030° - Wind Direction | 05KT - Wind Velocity</li>
+            <li>P6SM: Greater than 6 statute mile visibility</li>
+            <li>FEW030: Few Clouds at 3000 feet</li>
+            <li>FEW080: Few Clouds at 8000 feet</li>
+            <li>BKN250: Broken Clouds at 25000 feet</li>
+            <br>
+            <li>FM170800: 17 - Day of the Month | 0800Z - Time in Zulu</li>
+            <li>35005KT: 350° - Wind Direction | 05KT - Wind Velocity</li>
+            <li>P6SM: Greater than 6 statute mile visibility</li>
+            <li>SCT035: Scattered Clouds at 3500 feet</li>
+            <br>
+            <li>FM171400: 17 - Day of the Month | 1400Z - Time in Zulu</li>
+            <li>02011KT: 020° - Wind Direction | 11KT - Wind Velocity</li>
+            <li>P6SM: Greater than 6 statute mile visibility</li>
+            <li>SCT030: Scattered Clouds at 3000 feet</li>
+            <br>
+            <li>FM171800: 17 - Day of the Month | 1800Z - Time in Zulu</li>
+            <li>04014G20KT: 040° - Wind Direction | 14KT - Constant Wind Velocity | G20KT - Gust Wind Velocity</li>
+            <li>P6SM: Greater than 6 statute mile visibility</li>
+            <li>BKN035: Broken Clouds at 3500 feet</li>
+          </ul>
+        <br>
+        <br>
+        <br>
+        <h4>Prognostic Chart</h4>
+        <p>Prog charts cover very large areas, such as the entire United States. They depict fronts, special weather systems, and high/low pressure systems. Pilots can use prognostic charts to get an idea of how weather should behave in a local area or across a large area.</p>
+
+        <img src="./resources/images/progchart.png" class="img img-fluid" />
+        <h5>Low Pressure Systems</h5>
+        <p>Low pressure systems are typically assumed to have the following characteristics.
+          <ul>
+            <li>A mass of air that is considered less dense than the air around it</li>
+            <li>Generally brings bad weather</li>
+            <li>Generally brings warmer temperatures and higher humidity</li>
+          </ul>
+        </p>
+        <br>
+        <h5>High Pressure Systems</h5>
+        <p>High pressure systems are typically assumed to have the following characteristics.
+          <ul>
+            <li>A mass of air that is considered more dense than the air around it</li>
+            <li>Generally brings fair weather</li>
+            <li>Generally brings cooler temperatures and lower humidity</li>
+          </ul>
+        </p>
+
+        <br><br>
+        <h4>AIRMETs and SIGMETs</h4>
+        <h5>AIRMETs</h5>
+        <p>AIRMETs are a description of any current or forecast weather on a route of a flight that could impact aircraft safety, more generally for general aviation pilots. There are three types:
+          <ul>
+            <li>Airmet Sierra - Instrument Flight Rules prevail in the affected area.</li>
+            <li>Airmet Zulu - (Moderate) Icing, and provides freezing level.</li>
+            <li>Airmet Tango - (Moderate) Turbulance, sustained surface winds of 30 knots or greater, and/or non convective low-level wind shear.</li>
+          </ul>
+
+        AIRMETs are routinely issued for six-hour periods beginning at 0145Z during Daylight Saving Time and at 0245Z during Standard Time. AIRMETs can be modified as necessary.
+        </p>
+        <h5>SIGMETs</h5>
+        <p>SIGMETs are a description of any current or forecast weather on a route of a flight or in an area that should be carefully considered by all pilots because of its potential impact on flight/aircraft safety. Non-Convective SIGMETs are issued when:
+          <ul>
+            <li>Severe or greater turbulance over 3,000 square mile region or larger</li>
+            <li>Severe or greater icing over 3,000 square mile region or larger</li>
+          </ul>
+          SIGMETs are issued when needed and are valid for four hours. SIGMETs for hurricanes and volcanic ash outside the CONUS are valid up to six hours.
+        </p>
+        <h5>Convective SIGMETs</h5>
+        <p>Convective SIGMETs are a description of any current or forecast CONVECTIVE weather on a route of a flight or in an area that should be immediately considered by all pilots because of its potential impact on flight/aircraft safety. Convective SIGMETs are issued when:
+          <ul>
+            <li>An area of embedded thunderstorms</li>
+            <li>A line of thunderstorms</li>
+            <li>Thunderstorms greater than or equal to VIP level 4 affecting 40% or more of an area at least 3000 square miles</li>
+            <li>Severe surface weather including surface winds greater than or equal to 50 knots</li>
+            <li>Hail at the surface greater than or equal to 3/4 inches in diameter</li>
+            <li>Tornadoes</li>
+          </ul>
+          A Convective SIGMET is valid for no more than 2 hours and they are issued hourly at Hour+55.
+        </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+
+
+</html>

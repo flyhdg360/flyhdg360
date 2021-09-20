@@ -1,0 +1,28 @@
+/* Home Landing Area */
+
+.landing {
+  height: 70vh;
+  background-image: url("../images/IMG_0170.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Landing */
+
+.landing {
+  color: white;
+}
+
+.landing-text {
+  background-color: rgba(0,0,0,0.4);
+  padding: 2vh;
+  border: 0.3vh solid white;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+  margin-top: 5vh;
+}

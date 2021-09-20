@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- CSS Links -->
+    <link href="./resources/directory/style.css" rel=stylesheet type="text/css" />
+    <link href="./resources/global.css" rel=stylesheet type="text/css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Weight and Balance Calculuations</title>
+  </head>
+  <body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="ratings.html">
+        <img src="resources/images/logo.png" width="70px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav" role="navigation">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="ratings.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="directory.html">Directory</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Landing Page Title + Jumbotron -->
+
+    <div class="land-title container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div class="">
+          <div class="landing-texts text-center">
+            <h1>Weight and Balance</h1>
+          </div>
+        </div>
+    </div>
+
+    <!-- Private Certificate -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="ratings.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="directory.html">Directory</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Weight and Balance</li>
+      </ol>
+    </nav>
+    <div class="rating-page-section sectional-section container">
+
+      <h2 class="text-center">Knowledgebase Article</h2>
+      <h4 class="text-center">Calculating Weight and Balance</h4>
+      <br>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Why is weight and balance important?
+              </button>
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Having a weight and balance that is within limits is crucial for all pilots, regardless of the aircraft. Calculating your center of gravity is critical and affects the aircraft's manuvering and stall speeds.
+            </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Where can I find information for my specific aircraft?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Refer to your aircraft's Pilot Operating Handbook (POH) / Operating Limitations. This data is usually found in Section 6 of a standard POH.
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="reading-and-understanding">
+        <h3>Doing Your W & B</h3>
+        <br>
+        <a href="https://www.weather.gov/media/wrh/mesowest/metar_decode_key.pdf" target="_blank"><button class="btn btn-large btn-outline-primary">FAA METAR Weather Abbreviations</button></a>
+        <a href="https://aviationweather.gov/taf/decoder" target="_blank"><button class="btn btn-large btn-outline-primary">FAA TAF Guide</button></a>
+
+        <br><br>
+
+        <br><br>
+        <h4>Step 1</h4>
+        <h6>
+          Locate your aircraft's POH and find the section Weight and Balance. Check Section 6. You should find something like this:
+        </h6>
+        <img src="./resources/images/wb1.png" class="img img-fluid col-sm-6 col-xs-12" />
+
+        <br>
+        <h4>Step 2</h4>
+        <h6>To do this manually, get out a piece of paper or a device you can write on. First, we will learn to calculate W & B manually, and then by using software.</h6>
+
+        <p>Create a table like the one below:</p><br>
+        <p>Aircraft Maximum Gross Weight: </p>
+        <table>
+          <thead>
+            <th>Item</th>
+            <th>Weight (lbs)</th>
+            <th>Arm</th>
+            <th>Moment</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Basic Empty Weight</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Pilot</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+              <td>Front PAX</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            <tr>
+              <td>Rear PAX/Backseat</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Baggage</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr style="border-bottom:0.6vh black solid">
+              <td>Fuel</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Ramp Weight</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Takeoff Weight</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="bg-primary text-white" style="border-bottom:0.6vh black solid">
+              <td>Takeoff Center of Gravity</td>
+              <td>CG:</td>
+              <td></td>
+              <td>Within Limits? Y / N</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Landing Weight</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="bg-primary text-white" style="border-bottom:0.6vh black solid">
+              <td>Landing Center of Gravity</td>
+              <td>CG:</td>
+              <td></td>
+              <td>Within Limits? Y / N</td>
+            </tr>
+
+
+
+          </tbody>
+        </table>
+        <br>
+        <p>Note: There are multiple ways to calculate a weight and balance. This is one way.</p>
+
+        <br>
+        <h4>Step 3</h4>
+        <p>Locate the following charts in your POH to fill out the W & B sheet. Multiply each item's weight by the arm for each station given and record the moment in the right column. For the Basic Empty Weight, use the moment provided.
+          <br>
+          Note: Your aircraft's BEW will likely be different than in the sample loading problem. Make sure to attain a correct number for these calculations.</p>
+
+        <img src="./resources/images/wb3.png" class="img img-fluid" />
+        <img src="./resources/images/wb4.png" class="img img-fluid" />
+        <img src="./resources/images/wb2.png" class="img img-fluid" />
+
+        <br><br>
+
+        <h4>Step 4</h4>
+        <p>Calculate the weight and balance for your aircraft. Here, I did a sample calculation based on the sample POH and an in flight burn of 20 gallons.</p>
+        <p>Aircraft Maximum Gross Weight: 2300 lbs </p>
+        <table>
+          <thead>
+            <th>Item</th>
+            <th>Weight (lbs)</th>
+            <th>Arm</th>
+            <th>Moment</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Basic Empty Weight</td>
+              <td>1454 lbs</td>
+              <td></td>
+              <td>57,600</td>
+            </tr>
+            <tr>
+              <td>Pilot</td>
+              <td>155 lbs</td>
+              <td>37</td>
+              <td>5,735</td>
+            </tr>
+              <td>Front PAX</td>
+              <td>190 lbs</td>
+              <td>37</td>
+              <td>7,030</td>
+            <tr>
+              <td>Rear PAX/Backseat</td>
+              <td>140 lbs</td>
+              <td>73</td>
+              <td>10,220</td>
+            </tr>
+            <tr>
+              <td>Baggage Area 1</td>
+              <td>10 lbs</td>
+              <td>95</td>
+              <td>950</td>
+            </tr>
+            <tr style="border-bottom:0.6vh black solid">
+              <td>Fuel (30 gal)</td>
+              <td>180lbs</td>
+              <td>47.9</td>
+              <td>8,625</td>
+            </tr>
+            <tr>
+              <td>Ramp Weight</td>
+              <td>2,129 lbs</td>
+              <td></td>
+              <td>90,160</td>
+            </tr>
+            <tr>
+              <td>Start and Taxi Fuel</td>
+              <td>-10 lbs</td>
+              <td>47.9</td>
+              <td>-479</td>
+            </tr>
+            <tr>
+              <td>Takeoff Weight</td>
+              <td><strong>2,119 lbs</strong></td>
+              <td></td>
+              <td>89,681</td>
+            </tr>
+            <tr class="bg-primary text-white" style="border-bottom:0.6vh black solid">
+              <td>Takeoff Center of Gravity</td>
+              <td><strong style="color:lime">CG: 42.32</strong></td>
+              <td></td>
+              <td>Within Limits? <strong style="color:lime">Y</strong> / N</td>
+            </tr>
+            <tr>
+              <td>In Flight Fuel Burn</td>
+              <td>-125 lbs</td>
+              <td>47.9</td>
+              <td>-5,987.5</td>
+            </tr>
+            <tr>
+              <td>Landing Weight</td>
+              <td>1,994 lbs</td>
+              <td></td>
+              <td>83,693.5</td>
+            </tr>
+            <tr class="bg-primary text-white" style="border-bottom:0.6vh black solid">
+              <td>Landing Center of Gravity</td>
+              <td><strong style="color:lime">CG: 41.97</strong></td>
+              <td></td>
+              <td>Within Limits? <strong style="color:lime">Y</strong> / N</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h4>CG = Moment / Weight</h4>
+        <br><br>
+        <h4>Step 5</h4>
+          <p>Verify that your calculated Center of Gravity is within the moment CG envelope on your chart, as pictured above. If your "dot" is placed outside of the moment window, you will have to adjust your weight and/or loading to ensure you are under the max gross weight and are within allowable limits. This is very important - failure to do so can be fatal.</p>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+
+
+</html>
